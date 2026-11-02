@@ -16,7 +16,7 @@ int main(void) {
  if (xp < 0) {
     printf("Experience points cannot be negative.\n");
     return 1;
-};
+}
  int level = calculate_level(xp);
  printf("xp in main: %d\n", xp);
  printf("Level: %d\n", level);
