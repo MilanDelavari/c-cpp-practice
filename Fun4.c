@@ -9,7 +9,7 @@ int sum_to(int n)
     return sum;
 }
 
-int main()
+int main(void)
 {
     int n;
     printf("Enter a number: ");
