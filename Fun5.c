@@ -16,6 +16,11 @@ int main(void)
     printf("Enter your level: ");
     scanf("%d", &level);
 
+    if (level < 1) {
+    printf("Level must be at least 1.\n");
+    return 1;
+}
+
     int xp = xp_for_level(level);
     printf("To reach level %d you need %d XP.\n", level, xp);
 
