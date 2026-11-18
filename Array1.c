@@ -1,5 +1,6 @@
 #include <stdio.h>
 #define ENEMIES 5
+
 int main(void) {
     int hp[ENEMIES];
     int total_hp = 0;
